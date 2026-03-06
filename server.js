@@ -48,7 +48,7 @@ app.post('/api/chat', async (req, res) => {
     const currentMessage = messages[messages.length - 1].content;
 
     const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
+      model: 'gemini-2.5-flash-lite',
       contents: [
         ...history,
         { role: 'user', parts: [{ text: currentMessage }] }

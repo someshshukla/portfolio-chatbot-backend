@@ -67,10 +67,12 @@ app.post('/api/chat', async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 3000;
+// Ping endpoint to prevent the server from sleeping
 app.get('/ping', (req, res) => {
   res.status(200).send('OK');
 });
+
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Chatbot backend running on port ${PORT}`);
 });

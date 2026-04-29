@@ -23,7 +23,8 @@ const SYSTEM_INSTRUCTION = `
 You are an AI assistant for Somesh Shukla's portfolio website.
 Somesh Shukla is a Software Engineer specializing in Generative AI, LLMs, and the MERN stack.
 Be conversational, professional, and concise.
-
+Whenever the user asks something like the experience of somesh shukla, tell the user the experience upto the current date, (as in months, like is they as how many months of experience somesh has, and is the current date is 6 march 2026, then tell the complete months, from the starting data(i.e october 1 2025) to current date(i.e 6 march 2026).
+Somesh has completed his education. 
 ### KNOWLEDGE BASE:
 ${knowledgeBase}
 
@@ -48,7 +49,7 @@ app.post('/api/chat', async (req, res) => {
     const currentMessage = messages[messages.length - 1].content;
 
     const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
+      model: 'gemini-2.5-flash-lite',
       contents: [
         ...history,
         { role: 'user', parts: [{ text: currentMessage }] }
@@ -64,6 +65,11 @@ app.post('/api/chat', async (req, res) => {
     console.error('Error calling Gemini API:', error);
     res.status(500).json({ error: 'Failed to generate response' });
   }
+});
+
+// Ping endpoint to prevent the server from sleeping
+app.get('/ping', (req, res) => {
+  res.status(200).send('OK');
 });
 
 const PORT = process.env.PORT || 3000;

@@ -11,20 +11,25 @@ AI Engineer specializing in building production-grade AI solutions for customer 
 - Physics, Maths and CS (2019–2020), Kendriya Vidyalaya IIM LKO Lucknow
 
 **Technical Skills:**
-- Languages & Core: Python (Expert), SQL (Postgres), Bash/Shell
-- AI/ML Frameworks: PyTorch, TensorFlow, scikit-learn, LangChain, LangGraph
-- NLP & Customer AI: Multimodal LLMs, RAG (Visual + Graph), AI Chatbots & Virtual Assistants, Sentiment Analysis, Language Generation, Personalized Customer Journeys
-- Data & Cloud: FAISS Vector Stores, MongoDB, GCP (Vertex AI), AWS, Data Analysis & Pattern Extraction, Ethical AI & Privacy
-- Tools: FastAPI, Docker, Git, Agentic Tool-Use, Orchestration Layers
+- Languages: Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, Bash/Shell
+- Frameworks: React, Node.js, Flask, FastAPI, Express.js
+- Developer Tools: Git, Docker, Postman, Linux, GitHub Actions, GCP, AWS
+- Libraries: LangChain, LangGraph, FAISS, Transformers, PyTorch, TensorFlow, scikit-learn, pandas, NumPy
+- AI/ML: Multimodal LLMs, RAG (Visual + Graph), AI Chatbots & Virtual Assistants, Sentiment Analysis, Agentic Tool-Use, Orchestration Layers
 
 **Experience:**
 - Generative AI Engineer at Finkraft (May 2025 – Present), Bengaluru, Karnataka
   * Built high-precision Retrieval-Augmented Generation (RAG) pipelines using Multimodal LLMs to extract structured insights from complex customer documents (invoices), enabling personalized data-driven customer experiences.
   * Designed and deployed RAG repair agents with FAISS, MongoDB, and Graph RAG; improved data parsing accuracy from 30% to 99% while maintaining strict data privacy and security standards.
   * Architected LangGraph orchestration for Agentic AI systems that autonomously integrate with external APIs, deliver context-aware responses, and support enterprise customer workflows.
+  * Developed NotebookLM-style AI research assistant for private document analysis.
+  * Created AI data analyst bot interfacing with PostgreSQL, converting natural language to SQL and generating visualizations (Matplotlib/Plotly).
 - Generative AI Engineer Intern at Duco Consultancy (March 2025 – April 2025), Gurugram, Haryana
   * Developed a full-stack hospital management SaaS platform with an AI Agent featuring RAG capabilities for secure, personalized access to patient records and real-time customer support.
   * Implemented agentic tool-use and LLM integrations with wearable APIs to automate appointment scheduling and deliver personalized health insights while ensuring data privacy compliance.
+- Software Engineer Intern at Meta XR (Apr 2024 – Sep 2024), Kolkata, West Bengal
+  * Developed AI-driven VR interview platform in Unreal Engine with AI-powered MetaHumans.
+  * Implemented agentic capabilities using Convai SDK, C++ and Blueprints.
 
 **Projects:**
 - Visual RAG for Customer Document Intelligence (Oct 2025 – Present)
@@ -33,6 +38,11 @@ AI Engineer specializing in building production-grade AI solutions for customer 
 - Self-Hosted AI Chatbot & RAG Repair Agents (Oct 2025 – Present)
   * Built internal multimodal chatbot using self-hosted Qwen 2.5 with agentic capabilities, NLP-driven conversations, sentiment-aware responses, and seamless integration into customer-facing workflows (ag-grid manipulation + report generation).
   * Replaced external APIs with fine-tuned DeepSeek OCR and Chandra inference; added autonomous RAG repair, knowledge-base Q&A, and ethical privacy controls for secure customer data handling.
+- AI-Powered Virtual Interview Assistant (Apr 2024 – Sep 2024)
+  * Intelligent interview automation with conversational AI, speech recognition, sentiment analysis, and multi-modal agents.
+- AI Data Analyst Bot (Oct 2025 – Nov 2025)
+  * Natural language to Python code for real-time data visualization using Plotly/Matplotlib.
+  * LLM-driven "Text-to-Code" pipeline for analytics requests.
 
 **Links:**
 - LinkedIn: https://www.linkedin.com/in/shuklazi

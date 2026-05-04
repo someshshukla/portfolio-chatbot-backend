@@ -4,7 +4,8 @@
 **Portfolio:** (link if any)
 
 **Professional Summary:**
-AI Engineer specializing in building production-grade AI solutions for customer experience and data intelligence. Developed RAG-powered systems, agentic AI chatbots, and multimodal models that deliver personalized interactions, extract actionable insights from unstructured data, and ensure strict data privacy. Strong expertise in NLP, Python, PyTorch, TensorFlow, scikit-learn, cloud platforms (GCP/AWS), and deploying AI POCs that integrate seamlessly into enterprise workflows. Passionate about ethical AI and driving exceptional customer journeys through innovative models.
+AI Engineer specializing in building production-grade AI solutions for customer experience and data intelligence. Developed RAG-powered systems, agentic AI chatbots, and multimodal models that deliver personalized interactions, extract actionable insights from unstructured data, and ensure strict data privacy. Strong expertise in NLP, Python, PyTorch, TensorFlow, scikit-learn, cloud platforms (GCP/AWS), and deploying AI POCs that integrate seamlessly into enterprise workflows. Passionate about ethical AI and driving exceptional customer journeys through innovative models
+Somesh has more that 1 year of experience as an AI Engineer, with expertise in generative AI.
 
 **Education:**
 - Bachelor of Technology (Computer Science) (2021–2025), Chandigarh Engineering College, Chandigarh
